@@ -60,12 +60,6 @@ services:
                 - 'http://localhost:7700/health'
             retries: 3
             timeout: 5s
-    consul:
-        image: 'consul:latest'
-        ports:
-            - '${FORWARD_CONSUL_PORT:-8500}:8500'
-        networks:
-            - sail
     mailpit:
         image: 'axllent/mailpit:latest'
         ports:
