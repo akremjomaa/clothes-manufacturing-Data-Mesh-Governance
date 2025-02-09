@@ -87,3 +87,7 @@ Une fois l'application lancée, vous pourrez accéder à chaque microservice à 
 - Fabrication microservice : http://localhost:8081/api/fabrication
 
 - Catalogue microservice : http://localhost:8082/api/services
+
+## Auteurs
+1) GHIZLAN Moqim
+2) JOMAA Akrem
